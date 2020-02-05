@@ -1,3 +1,7 @@
+body {
+    background-image: url("https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ 
+}
 .header {
     font-size: 60px;
     font-style: oblique;
@@ -11,8 +15,23 @@
     text-align: center;
     margin: 0 auto;
     }
+<<<<<<< HEAD
 
 .container{
     justify-content: center;
     
+=======
+#search-content {
+
+    font-style: oblique;
+    font-weight: bold;
+    color: #000;
+    
+    top: 30px;
+    width: 100%;
+    min-height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+>>>>>>> 06a629c9afd4ed91b94e6fe57d5ee8a26a8cdf9f
 }
