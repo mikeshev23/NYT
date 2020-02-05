@@ -3,10 +3,9 @@ var search = document.getElementById('submit')
 
 
 function displaySearch() {
-    var article = $(this).attr("data-name");
     var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + search + "&api-key=eIeGJ5ZOKIKObIKzOFis7zmGU1AICmgT"
 
-
+    
 
     $.ajax({
         url:queryURL,
@@ -14,7 +13,7 @@ function displaySearch() {
     }).then(function(response){
         console.log(response);
         
-        $('#articles').text(<h1> + response.response.docs.headline.main + </h1>)
+        $('#articles').text("<h1>" + response.response.docs.headline.main + "</h1>")
     })
 }
 
